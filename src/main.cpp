@@ -17,8 +17,8 @@ vex::brain Brain;
 vex::controller Controller;
 
 
-motor driveLeft = motor(PORT1, ratio18_1, true);
-motor driveRight = motor(PORT2, ratio18_1, false);
+motor driveLeft = motor(PORT1, ratio18_1, false);
+motor driveRight = motor(PORT2, ratio18_1, true);
 
 
 
